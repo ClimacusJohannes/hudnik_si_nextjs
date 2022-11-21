@@ -29,34 +29,3 @@ function MyApp({ Component, pageProps, router }) {
 
   )
 }
-
-
-
-export default MyApp
-
-const variants = {
-  inactive: {
-    opacity: 1,
-    y: "-30vh",
-    transition: {
-      duration: 1,
-      ease: 'easeInOut'
-    },
-  },
-  out: {
-    opacity: 0,
-    y: "100vh",
-    transition: {
-      duration: 1,
-      ease: 'easeInOut'
-    }
-  },
-  in: {
-    y: "100vh",
-    opacity: 0,
-    transition: {
-      duration: 1,
-      ease: 'easeInOut'
-    }
-  }
-};
